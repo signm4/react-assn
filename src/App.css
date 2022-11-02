@@ -28,6 +28,38 @@
   color: #61dafb;
 }
 
+.HComp{
+  position:absolute;
+  top: 0;
+  font-style: Arial;
+  font-size: 40px;
+  text-align: center;
+  border: 3px solid green;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.LComp{
+  position: absolute;
+  left: 0;
+  font-style: cooper;
+}
+
+.RComp{
+  position: absolute;
+  right: 0;
+  font-style: cooper;
+}
+
+.FComp{
+  position: absolute;
+  bottom: 0;
+  font-style: cooper;
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
