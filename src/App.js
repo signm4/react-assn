@@ -10,41 +10,33 @@ function App() {
   return (
     <div className="App">
       <header>
-      {/* className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>*/}
 
         <div className='HComp'>
-          <HeaderComp />
+          {/* Function calling */}
+          <HeaderComp /> 
         </div>
 
       </header> 
+
       <body>
         <div className='LComp'>
-          
+          {/* Classes */}
           <LeftComp />
         </div>
 
       <div className='RComp'>
-          
+          {/* Classes */}
           <RightComp />
         </div>
 
-        <div className='FComp'>
-          
+      </body>
+
+      <footer>
+      <div className='FComp'>
+      {/* Function calling */}
           <FooterComp />
         </div>
-      </body>
+      </footer>
     </div>
   );
 }

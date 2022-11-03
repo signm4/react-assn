@@ -27,8 +27,31 @@
 .App-link {
   color: #61dafb;
 }
+header{
 
-.HComp{
+  font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  /* border: 3px solid green; */
+  
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* min-height: 100vh; */
+  bottom: 0;
+  border: 3px solid green;
+}
+
+/* .HComp{
   position:absolute;
   top: 0;
   font-style: Arial;
@@ -38,6 +61,28 @@
   margin: auto;
   align-items: center;
   justify-content: center;
+} */
+.LComp{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  top: 250px;
+  font-style: cooper;
+  border: 3px solid green;
+}
+
+.RComp{
+  position: absolute;
+  right: 0;
+  top: 250px;
+  font-style: cooper;
+  border: 3px solid green;
+}
+
+.HComp{
+  position: absolute;
+  top: 0;
+  font-style: cooper;
 }
 
 .LComp{
@@ -46,17 +91,12 @@
   font-style: cooper;
 }
 
-.RComp{
-  position: absolute;
-  right: 0;
-  font-style: cooper;
-}
 
-.FComp{
+/* .FComp{
   position: absolute;
   bottom: 0;
   font-style: cooper;
-}
+} */
 
 
 
